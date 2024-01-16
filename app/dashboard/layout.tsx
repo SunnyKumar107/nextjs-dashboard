@@ -1,4 +1,3 @@
-import { Children } from 'react';
 import SideNav from '../ui/dashboard/sidenav';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -11,5 +10,3 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
-
-// flex-grow p-6 md:overflow-y-auto md:p-12"
